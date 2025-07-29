@@ -24,7 +24,7 @@ The UI automatically adapts for desktop and mobile screens. On mobile, category 
 
 ## 📦 Installation & Setup
 
-The app will run at  [http://localhost:5173](http://localhost:5173)
+The app will run at  [http://localhost:5173](http://localhost:5173) if Vite is used.
 
 1. **Clone the repository**
 ```bash
