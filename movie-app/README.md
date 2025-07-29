@@ -1,12 +1,33 @@
-# React + Vite
+# 🎬 MovieZone - React Movie Filter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive movie listing application built with **React** and **Bootstrap** that allows users to filter movies by category.  
+The UI automatically adapts for desktop and mobile screens. On mobile, category buttons collapse into a **hamburger menu** for better usability.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 📂 **Filter by Category** – View movies by selecting categories like Action, Drama, Horror, etc.
+- 📱 **Responsive Design** – Buttons are inline on desktop and inside a hamburger menu on mobile.
+- 🎯 **Active Button Highlight** – The currently selected category button stays highlighted.
+- 🎨 **Bootstrap Styling** – Clean, modern UI using Bootstrap 5.
+- 🖼 **Dynamic Movie Data** – Movies are displayed dynamically from a `data.js` file.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+- **React.js** – Frontend library
+- **Bootstrap 5** – Styling & responsive layout
+- **JavaScript (ES6+)** – Core logic
+- **CSS** – Custom styling
+
+---
+
+## 📦 Installation & Setup
+
+The app will run at  [http://localhost:5173](http://localhost:5173)
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/harpreet9891/projects.git
+cd projects/movie-app
+npm install
